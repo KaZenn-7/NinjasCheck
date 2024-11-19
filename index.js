@@ -12,7 +12,7 @@ main = async () => {
 
     let oi = await splitNinjas(stringg);
 
-    console.log(await findPatente(oi[0]))
+    console.log(await findClan(oi[0]))
     
 
 }
