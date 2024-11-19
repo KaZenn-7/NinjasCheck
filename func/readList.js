@@ -1,7 +1,9 @@
 const emojiStrip = require('emoji-strip')
 
-const splitNinjas = async (string) => {
+const splitNinjas = (string) => {
+
     let splitted = string.split("\n");
+
     let objetfied = [];
 
     for(let i of splitted) {
@@ -16,6 +18,7 @@ const splitNinjas = async (string) => {
         objetfied.push(ninja);
     }
     
+    // console.log(objetfied)
     return objetfied
 }
 

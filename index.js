@@ -1,8 +1,19 @@
 const splitNinjas = require("./func/readList");
+const findClan = require("./func/findClan");
 
-let oi = splitNinjas(`🎊🈂️🕊️ Akashi Bakurei 🕊️🈂️🎊
+let stringg = `🎊🈂️🕊️ Akashi Bakurei 🕊️🈂️🎊
 🎊🈂️🕊️ Freddy Bakurei 🕊️🈂️🎊
 🎊🈂️🈯 Adelino Kitaku 🈯🈂️🎊
-🎊🈂️🈯 Akaza Kitaku 🈯🈂️🎊`);
+🎊🈂️🈯 Akaza Kitaku 🈯🈂️🎊`
 
-console.log(oi);
+
+main = async () => {
+
+    let oi = await splitNinjas(stringg);
+    
+    for(let i of oi) {
+        console.log(await findClan(i));
+    }
+}
+
+main();
