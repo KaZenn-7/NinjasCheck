@@ -6,9 +6,9 @@ const findPatente = (ninja) => {
 
     let patente;
 
-    for(let i in patentesEmojis) {
-        if(ninja.emojis.includes(i)) {
-            patente = patentesEmojis[i];
+    for(let i of patentesEmojis) {
+        if(ninja.emojis.includes(i.emoji)) {
+            patente = i.patente;
         }
     }
 

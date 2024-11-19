@@ -11,6 +11,8 @@ let stringg = `🎊🈂️🕊️ Akashi Bakurei 🕊️🈂️🎊
 main = async () => {
 
     let oi = await splitNinjas(stringg);
+
+    console.log(await findPatente(oi[0]))
     
 
 }

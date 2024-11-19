@@ -1,15 +1,15 @@
-{
-    "👑": "Kaizokū",
-    "🎴": "Rikudōu",
-    "🔅": "Ancião",
-    "🀄": "Kage",
-    "♦️": "Shogun",
-    "🃏": "Daimyō",
-    "🔘": "Sannin",
-    "🔆": "Vassalo",
-    "⭕": "Akatsuki",
-    "💠": "Anbu",
-    "✴️": "Jounin",
-    "✳️": "Chunin",
-    "🈂️": "Gennin"
-}
+[
+    {"emoji": "👑", "patente": "Kaizokū"},
+    {"emoji": "🎴", "patente": "Rikudōu"},
+    {"emoji": "🔅", "patente": "Ancião"},
+    {"emoji": "🀄", "patente": "Kage"},
+    {"emoji": "♦️", "patente": "Shogun"},
+    {"emoji": "🃏", "patente": "Daimyō"},
+    {"emoji": "🔘", "patente": "Sannin"},
+    {"emoji": "🔆", "patente": "Vassalo"},
+    {"emoji": "⭕", "patente": "Akatsuki"},
+    {"emoji": "💠", "patente": "Anbu"},
+    {"emoji": "✴️", "patente": "Jounin"},
+    {"emoji": "✳️", "patente": "Chunin"},
+    {"emoji": "🈂️", "patente": "Gennin"}
+]
