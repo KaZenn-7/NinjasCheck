@@ -5,7 +5,7 @@ const emoteClan = JSON.parse(fs.readFileSync("./db/clanEmojis.json", "utf8"));
 const findClan = (ninja) => {
 
     let realClan;
-    let clanString = ninja.clan;
+
 
     for(let i in emoteClan) {
         if(ninja.emojis.includes(i) && ninja.clan == emoteClan[i]) {
