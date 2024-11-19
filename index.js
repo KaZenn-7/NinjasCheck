@@ -1,6 +1,7 @@
 const splitNinjas = require("./func/readList");
 const findClan = require("./func/findClan");
 const findPatente = require("./func/findPatente");
+const countByVillage = require("./func/countByVillage");
 
 let stringg = `🎊🈂️🕊️ Akashi Bakurei 🕊️🈂️🎊
 🎊🈂️🕊️ Freddy Bakurei 🕊️🈂️🎊
@@ -12,8 +13,7 @@ main = async () => {
 
     let oi = await splitNinjas(stringg);
 
-    console.log(await findClan(oi[0]))
-    
+    let results = await countByVillage(oi)
 
 }
 
