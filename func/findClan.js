@@ -8,7 +8,7 @@ const findClan = (ninja) => {
     let clanString = ninja.clan;
 
     for(let i in emoteClan) {
-        if(ninja.emojis.includes(i) && ninja.clan == clanString) {
+        if(ninja.emojis.includes(i) && ninja.clan == emoteClan[i]) {
             realClan = ninja.clan;
         }
     }

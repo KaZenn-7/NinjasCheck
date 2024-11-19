@@ -1,9 +1,9 @@
-{
-    "🈴ᗃ Konoha ᗂ🈴࿙": ["Uchiha", "Senju", "Namikaze", "Hyuuga", "Yamanaka", "Sarutobi", "Uzumaki", "Nara", "Hatake"],
-        "🌑ᗃ Mun ᗂ🌑࿙": ["Momoshiki", "Urashiki", "Toneri", "Hamura", "Isshiki", "Kinshiki"],
-    "♑ᗃ Kumo ᗂ♑࿙": ["Kira", "Chinoike", "Yotsuki", "Raiunko", "Chūingamu", "Kaminari"],
-    "🈸ᗃ Suna ᗂ🈸࿙": ["Render", "Soubaki", "Kazekage", "Sabaku", "Akasuna", "Shirogane"],
-   "♒ᗃ Kiri ᗂ♒࿙": ["Terumi", "Kaguya", "Hoshigaki", "Momochi"],
-    "🉑ᗃ Iwa ᗂ🉑࿙": ["Bakurei", "Kitaku", "Hinsei", "Kamizuro"],
-    "🌙ᗃ Wano ᗂ🌙࿙": ["Kurozumi", "Kozuki", "Oden"]
-}
+[
+    {"vila": "🈴ᗃ Konoha ᗂ🈴࿙", "clans": ["Uchiha", "Senju", "Namikaze", "Hyuuga", "Yamanaka", "Sarutobi", "Uzumaki", "Nara", "Hatake"]},
+    {"vila":"🌑ᗃ Mun ᗂ🌑࿙", "clans": ["Momoshiki", "Urashiki", "Toneri", "Hamura", "Isshiki", "Kinshiki"]},
+    {"vila":"♑ᗃ Kumo ᗂ♑࿙", "clans": ["Kira", "Chinoike", "Yotsuki", "Raiunko", "Chūingamu", "Kaminari"]},
+    {"vila":"🈸ᗃ Suna ᗂ🈸࿙", "clans": ["Render", "Soubaki", "Kazekage", "Sabaku", "Akasuna", "Shirogane"]},
+    {"vila":"♒ᗃ Kiri ᗂ♒࿙", "clans": ["Terumi", "Kaguya", "Hoshigaki", "Momochi"]},
+    {"vila":"🉑ᗃ Iwa ᗂ🉑࿙", "clans": ["Bakurei", "Kitaku", "Hinsei", "Kamizuro"]},
+    {"vila":"🌙ᗃ Wano ᗂ🌙࿙", "clans": ["Kurozumi", "Kozuki", "Oden"]}
+]
