@@ -9,7 +9,7 @@ const findClan = require("./findClan");
 const findPatente = require("./findPatente");
 
 const countByVillage = async (ninjas) => {
-    let results = {vilas:{}, patentes_results: {}, total_ninjas_geral: 0}
+    let results = {vilas:[], patentes_results: {}, total_ninjas_geral: 0}
     // let patentes_results = {}
     // let total_ninjas_geral = 0
 
