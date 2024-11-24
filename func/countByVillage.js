@@ -9,9 +9,7 @@ const findClan = require("./findClan");
 const findPatente = require("./findPatente");
 
 const countByVillage = async (ninjas) => {
-    let results = {vilas:[], patentes_results: {}, total_ninjas_geral: 0}
-    // let patentes_results = {}
-    // let total_ninjas_geral = 0
+    let results = {vilas:[], patentes: {}, total_ninjas_geral: 0}
 
     for(let i of clansByVillage) {
         let nomeVila = emojiStrip(i.vila).replace(/ᗃ/g, "").replace(/ᗂ/g, "").replace(/࿙/g, "").trim();
@@ -24,7 +22,7 @@ const countByVillage = async (ninjas) => {
     }
 
     for(let patente of patentesEmojis) {
-        results.patentes_results[patente] = 0
+        results.patentes[patente.patente] = 0
     }
 
     for(ninja of ninjas){
@@ -41,7 +39,7 @@ const countByVillage = async (ninjas) => {
             
         }
 
-        results.patentes_results[patente] += 1;
+        results.patentes[patente] += 1;
         results.total_ninjas_geral += 1;
 
     }

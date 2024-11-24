@@ -18,7 +18,7 @@ main = async () => {
 
     let msg = await formatMessage(results); 
 
-    console.log(results);
+    console.log(msg);
     
 
 }
