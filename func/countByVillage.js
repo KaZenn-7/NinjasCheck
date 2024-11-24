@@ -17,8 +17,9 @@ const countByVillage = async (ninjas) => {
         let nomeVila = emojiStrip(i.vila).replace(/ᗃ/g, "").replace(/ᗂ/g, "").replace(/࿙/g, "").trim();
         results.vilas[nomeVila] = {};
         results.vilas[nomeVila]["ninjas_vila"] = 0;
+        results.vilas[nomeVila].clans = [];
         for(let j of i.clans) {
-            results.vilas[nomeVila][j] = 0
+            results.vilas[nomeVila].clans[j] = 0
         }
     }
 
@@ -34,7 +35,7 @@ const countByVillage = async (ninjas) => {
         for(let i of clansByVillage) {
             let nomeVila = emojiStrip(i.vila).replace(/ᗃ/g, "").replace(/ᗂ/g, "").replace(/࿙/g, "").trim();
             if(i.clans.includes(clan)) {
-                results.vilas[nomeVila][clan] += 1;
+                results.vilas[nomeVila].clans[clan] += 1;
                 results.vilas[nomeVila]["ninjas_vila"] += 1;
             }
             
