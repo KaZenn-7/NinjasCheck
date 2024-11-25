@@ -1,9 +1,9 @@
 [
-    {"vila": "🈴ᗃ Konoha ᗂ🈴࿙", "clans": ["Uchiha", "Senju", "Namikaze", "Hyuuga", "Yamanaka", "Sarutobi", "Uzumaki", "Nara", "Hatake"]},
-    {"vila":"🌑ᗃ Mun ᗂ🌑࿙", "clans": ["Momoshiki", "Urashiki", "Toneri", "Hamura", "Isshiki", "Kinshiki"]},
-    {"vila":"♑ᗃ Kumo ᗂ♑࿙", "clans": ["Kira", "Chinoike", "Yotsuki", "Raiunko", "Chūingamu", "Kaminari"]},
-    {"vila":"🈸ᗃ Suna ᗂ🈸࿙", "clans": ["Render", "Soubaki", "Kazekage", "Sabaku", "Akasuna", "Shirogane"]},
-    {"vila":"♒ᗃ Kiri ᗂ♒࿙", "clans": ["Terumi", "Kaguya", "Hoshigaki", "Momochi"]},
-    {"vila":"🉑ᗃ Iwa ᗂ🉑࿙", "clans": ["Bakurei", "Kitaku", "Hinsei", "Kamizuro"]},
-    {"vila":"🌙ᗃ Wano ᗂ🌙࿙", "clans": ["Kurozumi", "Kozuki", "Oden"]}
+    {"vila": "Konoha", "emoji": "🈴","clans": ["Uchiha", "Senju", "Namikaze", "Hyuuga", "Yamanaka", "Sarutobi", "Uzumaki", "Nara", "Hatake"]},
+    {"vila":"Mun", "emoji": "🌑","clans": ["Momoshiki", "Urashiki", "Toneri", "Hamura", "Isshiki", "Kinshiki"]},
+    {"vila":"Kumo", "emoji": "♑","clans": ["Kira", "Chinoike", "Yotsuki", "Raiunko", "Chūingamu", "Kaminari"]},
+    {"vila":"Suna", "emoji": "🈸","clans": ["Render", "Soubaki", "Kazekage", "Sabaku", "Akasuna", "Shirogane"]},
+    {"vila":"Kiri", "emoji": "♒","clans": ["Terumi", "Kaguya", "Hoshigaki", "Momochi"]},
+    {"vila":"Iwa", "emoji": "🉑","clans": ["Bakurei", "Kitaku", "Hinsei", "Kamizuro"]},
+    {"vila":"Wano", "emoji": "🌙","clans": ["Kurozumi", "Kozuki", "Oden"]}
 ]

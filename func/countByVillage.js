@@ -1,7 +1,6 @@
 const fs = require("fs");
 const emojiStrip = require('emoji-strip')
 
-const emoteClan = JSON.parse(fs.readFileSync("./db/clanEmojis.json", "utf8"));
 const patentesEmojis = JSON.parse(fs.readFileSync("./db/patentesEmojis.json", "utf8"));
 const clansByVillage = JSON.parse(fs.readFileSync("./db/clansByVillage.json", "utf8"));
 
@@ -12,12 +11,11 @@ const countByVillage = async (ninjas) => {
     let results = {vilas:[], patentes: {}, total_ninjas_geral: 0}
 
     for(let i of clansByVillage) {
-        let nomeVila = emojiStrip(i.vila).replace(/ᗃ/g, "").replace(/ᗂ/g, "").replace(/࿙/g, "").trim();
-        results.vilas[nomeVila] = {};
-        results.vilas[nomeVila]["ninjas_vila"] = 0;
-        results.vilas[nomeVila].clans = [];
+        results.vilas[i.vila] = {};
+        results.vilas[i.vila]["ninjas_vila"] = 0;
+        results.vilas[i.vila].clans = [];
         for(let j of i.clans) {
-            results.vilas[nomeVila].clans[j] = 0
+            results.vilas[i.vila].clans[j] = 0
         }
     }
 
