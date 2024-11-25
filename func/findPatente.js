@@ -13,7 +13,7 @@ const findPatente = (ninja) => {
     }
 
     if(patente != undefined) return patente;
-    return "Patente não reconhecida"
+    return "Desconhecida"
 
 }
 

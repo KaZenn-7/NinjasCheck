@@ -24,6 +24,7 @@ const countByVillage = async (ninjas) => {
     for(let patente of patentesEmojis) {
         results.patentes[patente.patente] = 0
     }
+    results.patentes["Desconhecida"] = 0
 
     for(ninja of ninjas){
 
