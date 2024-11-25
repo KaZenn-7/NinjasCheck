@@ -16,12 +16,9 @@ let stringg = `🎊👑📛Shirohege D. Welk📛👑🎊
 🎊🔘🛗Has Kazekage🛗🔘🎊
 🎊🔘🈵Suna Chūingamu🈵🔘🎊
 🎊🔆👁️‍🗨️Chifuyu Momoshiki👁️‍🗨️🔆🎊
-
 🎊⭕♎Mayuri Kira♎⭕🎊
 🎊⭕Ⓜ️Kuroko MomochiⓂ️⭕🎊
 🎊⭕🌘Kimiko Urashiki🌘⭕🎊
-
-
 🎊💠⛔Captine Chinoike⛔💠🎊
 🎊💠⛔Kitare Chinoike⛔💠🎊
 🎊💠®️Limão.S Raiunko®️💠🎊

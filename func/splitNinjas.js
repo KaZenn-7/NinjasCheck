@@ -7,6 +7,7 @@ const splitNinjas = (string) => {
     let objetfied = [];
 
     for(let i of splitted) {
+        if(i.length < 1) continue;
         let ninja = {};
         let noEmoji = emojiStrip(i).trim();
         let espacos = noEmoji.split(" ");
