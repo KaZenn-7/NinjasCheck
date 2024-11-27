@@ -1,13 +1,13 @@
-const fs = require("fs");
-const emojiStrip = require('emoji-strip')
+import fs from "fs";
+import emojiStrip from 'emoji-strip'
+
+import { findClan } from "./findClan.js";
+import { findPatente } from "./findPatente.js";
 
 const patentesEmojis = JSON.parse(fs.readFileSync("./db/patentesEmojis.json", "utf8"));
 const clansByVillage = JSON.parse(fs.readFileSync("./db/clansByVillage.json", "utf8"));
 
-const findClan = require("./findClan");
-const findPatente = require("./findPatente");
-
-const countByVillage = async (ninjas) => {
+export const countByVillage = async (ninjas) => {
     let results = {vilas:[], patentes: {}, total_ninjas_geral: 0}
 
     for(let i of clansByVillage) {
@@ -24,7 +24,7 @@ const countByVillage = async (ninjas) => {
     }
     results.patentes["Desconhecida"] = 0
 
-    for(ninja of ninjas){
+    for(let ninja of ninjas){
 
         let clan = await findClan(ninja);
         let patente = await findPatente(ninja);
@@ -46,6 +46,3 @@ const countByVillage = async (ninjas) => {
     return results
 
 }
-   
-
-module.exports = countByVillage; 

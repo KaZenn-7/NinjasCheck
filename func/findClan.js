@@ -1,11 +1,10 @@
-const fs = require("fs");
+import fs from "fs";
 
 const emoteClan = JSON.parse(fs.readFileSync("./db/clanEmojis.json", "utf8"));
 
-const findClan = (ninja) => {
+export const findClan = (ninja) => {
 
     let realClan;
-
 
     for(let i of emoteClan) {
         if(ninja.emojis.includes(i.emoji) && ninja.clan == i.clan) {
@@ -16,7 +15,4 @@ const findClan = (ninja) => {
     if(realClan != undefined) return realClan;
     return "Error: o nome do clan e o emoji nao combinam" 
 
-
 }
-
-module.exports = findClan; 

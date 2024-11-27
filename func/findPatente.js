@@ -1,8 +1,8 @@
-const fs = require("fs");
+import fs from "fs"
 
 const patentesEmojis = JSON.parse(fs.readFileSync("./db/patentesEmojis.json", "utf8"));
 
-const findPatente = (ninja) => {
+export const findPatente = (ninja) => {
 
     let patente;
 
@@ -16,5 +16,3 @@ const findPatente = (ninja) => {
     return "Desconhecida"
 
 }
-
-module.exports = findPatente; 

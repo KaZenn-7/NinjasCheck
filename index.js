@@ -1,6 +1,6 @@
-const splitNinjas = require("./func/splitNinjas");
-const countByVillage = require("./func/countByVillage");
-const formatMessage = require("./func/formatMessage");
+import { splitNinjas } from "./func/splitNinjas.js";
+import { countByVillage } from "./func/countByVillage.js"
+import { formatMessage } from "./func/formatMessage.js";
 
 let stringg = `🎊👑📛Shirohege D. Welk📛👑🎊
 🎊🀄®️Levi Raiunko®️🀄🎊
@@ -22,7 +22,7 @@ let stringg = `🎊👑📛Shirohege D. Welk📛👑🎊
 🎊🈂️🐝Morgana kamizuru 🐝🈂️🎊`
 
 
-main = async () => {
+let main = async () => {
 
     let oi = await splitNinjas(stringg);
 

@@ -1,14 +1,14 @@
-const fs = require('fs');
+import fs from "fs"
 const clansByVillage = JSON.parse(fs.readFileSync("./db/clansByVillage.json", "utf8"));
 
-const formatMessage = async (results) => {
+export const formatMessage = async (results) => {
 
     let vilas = results.vilas
     let patentes = results.patentes
 
     let msg = "";
 
-    for(vila in vilas){
+    for(let vila in vilas){
         let indexVila = clansByVillage.map(i => i.vila).indexOf(vila);
         let emojiVila = clansByVillage[indexVila].emoji;
         let clans = vilas[vila].clans
@@ -23,7 +23,7 @@ const formatMessage = async (results) => {
 
     msg += "☬ *Patentes*\n"
 
-    for(patente in patentes){
+    for(let patente in patentes){
        msg += `├─ ${patente}: *${patentes[patente]}*\n`
     }
 
@@ -32,6 +32,3 @@ const formatMessage = async (results) => {
     return msg;
 
 }
-   
-
-module.exports = formatMessage; 

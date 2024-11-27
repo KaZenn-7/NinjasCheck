@@ -1,6 +1,6 @@
-const emojiStrip = require('emoji-strip')
+import emojiStrip from 'emoji-strip'
 
-const splitNinjas = (string) => {
+export const splitNinjas = (string) => {
 
     let splitted = string.split("\n");
 
@@ -22,5 +22,3 @@ const splitNinjas = (string) => {
     // console.log(objetfied)
     return objetfied
 }
-
-module.exports = splitNinjas; 

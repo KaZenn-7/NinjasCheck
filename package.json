@@ -2,6 +2,7 @@
   "name": "ninjascheck",
   "version": "1.0.0",
   "description": "A simple ninja checker for a whatsapp anime based RPG",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
